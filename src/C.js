@@ -1,11 +1,9 @@
 import React from 'react'
-import D from './D';
 
-function C() {
+function C({surname}) {
     return (
         <>
-                <h1>hello goodmorning</h1>
-                <D/>
+                <h5> Proofreading and Editing Services. Our proofreading and editing services english proofreading service are provided by native English editors for your thesis, dissertation, manuscript for .{surname}</h5>     
         </>
     )
 }

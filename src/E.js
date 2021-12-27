@@ -1,11 +1,11 @@
 import React from 'react'
-import F from './F';
 
- function E() {
+
+ function E({type}) {
     return (
         <>
-                <h2>class components and functional components</h2>
-                <F/>
+                <h5>function components{type}</h5>
+                
         </>
     )
 }

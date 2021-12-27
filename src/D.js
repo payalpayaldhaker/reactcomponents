@@ -1,13 +1,16 @@
-import React, { Component } from 'react'
-import E from './E'
+import React from 'react'
 
-export default class D extends Component {
-    render() {
+
+    
+    
+    export default function D({address}) {
         return (
             <React.Fragment>
-                <h1>React js components</h1>
-                <E/>
-            </React.Fragment>
+            <h5>English Language Editing. At SAGE Author Services, a unique editor-manuscript match system assigns your manuscript to the right subject specialist and language expert for an error-free.{address}</h5>
+            
+        </React.Fragment>
         )
     }
-}
+    
+    
+       
