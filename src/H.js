@@ -1,13 +1,12 @@
-import React, { Component } from 'react'
-import K from './K'
+import React from 'react'
 
-export default class H extends Component {
-    render() {
-        return (
-            <>
-                    <h2>hello eveyone </h2>
-                    <K/>
-            </>
-        )
-    }
+
+
+export default function H({output}) {
+    return (
+        <>
+            <span>{output}</span>
+           
+        </>
+    )
 }

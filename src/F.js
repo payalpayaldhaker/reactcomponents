@@ -1,13 +1,12 @@
-import React, { Component } from 'react'
-import G from './G'
+import React from 'react'
 
-export default class F extends Component {
-    render() {
-        return (
-            <React.Fragment>
-                <h5>components</h5>  
-                <G/>
-            </React.Fragment>
-        )
-    }
+
+
+export default function F({course}) {
+    return (
+        <>
+            <span>{course}</span>
+           
+        </>
+    )
 }

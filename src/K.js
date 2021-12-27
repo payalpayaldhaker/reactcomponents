@@ -1,13 +1,12 @@
-import React, { Component } from 'react'
-import J from './J'
+import React from 'react'
 
-export default class K extends Component {
-    render() {
-        return (
-            <React.Fragment>
-                <h4>export and import</h4>
-                <J/>
-            </React.Fragment>
-        )
-    }
+
+
+export default function K({input}) {
+    return (
+        <>
+            <span>{input}</span>
+           
+        </>
+    )
 }

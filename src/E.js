@@ -1,12 +1,12 @@
 import React from 'react'
 
 
- function E({type}) {
+
+export default function E({cast}) {
     return (
         <>
-                <h5>function components{type}</h5>
-                
+            <span>{cast}</span>
+           
         </>
     )
 }
-export default E;
